@@ -25,8 +25,9 @@ nav > ul > li >a {
 }
 nav > ul > li > a:hover {
     color:rgb(25, 200, 219);
-    background-color: rgb(93, 220, 20, 0;
-    border-radius: 8px
+    background-color: rgb(93, 220, 20, 0);
+    border-radius: 8px;
+    padding: 4px;
 }
 .container{
     display: flex;
@@ -40,4 +41,6 @@ nav > ul > li > a:hover {
 .main{
     display: flex;
     border: 2px solid;
+    align-items: center;
+    justify-content: center;
 }
